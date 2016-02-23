@@ -44,7 +44,7 @@ RUN set -ex \
 
 ADD influxdb.conf /etc/influxdb.conf
 
-EXPOSE 8083 8086 8088 8091
 VOLUME /var/lib/influxdb
+EXPOSE 8083 8086 8088 8091
 
 CMD ["influxd", "-config", "/etc/influxdb.conf"]
