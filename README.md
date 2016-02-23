@@ -11,12 +11,12 @@ and contains a build of [InfluxDB](https://influxdata.com) v0.10.1.
 
     $ docker run -p 8083:8083 -p 8086:8086 -v ./data:/var/lib/influxdb imko/docker-alpine-influxdb
 
-## Use this image as base image
+## Use as base image
 
     FROM imko/docker-alpine-influxdb:0.10.1
     ADD influxdb.conf /etc/influxdb.conf
 
-## Use this image with docker-compose
+## Use with docker-compose
 
     $ cat docker-compose.yml
     version: '2'
