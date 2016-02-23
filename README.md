@@ -12,7 +12,7 @@ This tiny (67 MB) image is based on the official [Alpine Linux](http://www.alpin
 
 ## Use as base image
 
-    FROM imko/docker-alpine-influxdb:0.10.1
+    FROM imko/docker-alpine-influxdb:v0.10.1
     ADD influxdb.conf /etc/influxdb.conf
 
 ## Use with docker-compose
