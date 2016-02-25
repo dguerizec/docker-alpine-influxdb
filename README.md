@@ -2,7 +2,8 @@
 
 This tiny image is based on the official [Alpine Linux](http://www.alpinelinux.org) 3.3 and contains a build of [InfluxDB](https://influxdata.com) v0.10.1.
 
-[![](https://badge.imagelayers.io/imko/docker-alpine-influxdb:latest.svg)](https://imagelayers.io/?images=imko/docker-alpine-influxdb:latest)
+[![](https://badge.imagelayers.io/imko/docker-alpine-influxdb:latest.svg)]
+(https://imagelayers.io/?images=imko/docker-alpine-influxdb:latest)
 
 ## Build this image
 
