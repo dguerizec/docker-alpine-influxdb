@@ -1,9 +1,8 @@
 # docker-alpine-influxdb
 
-This tiny image is based on the official [Alpine Linux](http://www.alpinelinux.org) 3.3 and contains a build of [InfluxDB](https://influxdata.com) v0.10.1.
+This tiny image is based on the official [Alpine Linux][0] 3.3 and contains a build of [InfluxDB][1] v0.10.1.
 
-[![](https://badge.imagelayers.io/imko/docker-alpine-influxdb:latest.svg)]
-(https://imagelayers.io/?images=imko/docker-alpine-influxdb:latest)
+[![](https://badge.imagelayers.io/imko/docker-alpine-influxdb:latest.svg)][2]
 
 ## Build this image
 
@@ -44,3 +43,8 @@ This tiny image is based on the official [Alpine Linux](http://www.alpinelinux.o
     volumes:
       influx-storage:
       grafana-storage:
+
+
+[0]: http://www.alpinelinux.org
+[1]: https://influxdata.com
+[2]: https://imagelayers.io/?images=imko/docker-alpine-influxdb:latest
