@@ -1,6 +1,6 @@
 # docker-alpine-influxdb
 
-This tiny image is based on the official [Alpine Linux][0] 3.3 and contains a build of [InfluxDB][1] v0.10.1.
+This tiny image is based on the official [Alpine Linux][0] 3.3 and contains a build of [InfluxDB][1] v0.12.1.
 
 [![](https://badge.imagelayers.io/imko/docker-alpine-influxdb:latest.svg)][2]
 
@@ -14,7 +14,7 @@ This tiny image is based on the official [Alpine Linux][0] 3.3 and contains a bu
 
 ## Use as base image
 
-    FROM imko/docker-alpine-influxdb:v0.10.1
+    FROM imko/docker-alpine-influxdb:v0.12.1
     ADD influxdb.conf /etc/influxdb.conf
 
 ## Use with docker-compose
